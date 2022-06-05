@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/alonsadan1/.yarn/bin/yarn.js add stimulates
+
+PATH: 
+  /home/alonsadan1/.rvm/gems/ruby-3.1.2/bin:/home/alonsadan1/.rvm/gems/ruby-3.1.2@global/bin:/home/alonsadan1/.rvm/rubies/ruby-3.1.2/bin:/home/alonsadan1/.rvm/bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/home/alonsadan1/.yarn/bin:/home/alonsadan1/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2004.4.4.0_x64__79rhkp1fndgsc:/mnt/c/Python39/Scripts:/mnt/c/Python39:/mnt/c/Program Files (x86)/Chez Scheme Version 8.4/bin/a6nt:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/swipl/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/Java/jdk-16:/mnt/c/Users/alons/java/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/bin:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/PROGRA~1/OpenJDK/openjdk-8u282-b08/bin:/mnt/c/Program Files/PuTTY:/mnt/c/Gradle/gradle-7.0/bin:/mnt/c/Users/alons/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/alons/AppData/Local/Android/Sdk/ndk/22.1.7171670:/mnt/c/Users/alons/AppData/Local/Android/Sdk/ndk/22.1.7171670:/mnt/c/Users/alons/studies/distributed_systems/hadoop-3.2.2/bin:/mnt/c/Users/alons/studies/distributed_systems/hadoop-3.2.2/sbin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/alons/SQL:/mnt/c/Ruby31/bin:/mnt/c/Users/alons/AppData/Local/Programs/Python/Python38-32/Scripts:/mnt/c/Users/alons/AppData/Local/Programs/Python/Python38-32:/mnt/c/Users/alons/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alons/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2019.3.4/bin:/mnt/c/Users/alons/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.8:/mnt/c/Users/alons/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.8/Scripts:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.3.3/bin:/mnt/c/Users/alons/AppData/Roaming/npm:/mnt/c/Users/alons/go/bin:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/stimulates: Not found
+      at Request.params.callback [as _callback] (/home/alonsadan1/.yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/alonsadan1/.yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/home/alonsadan1/.yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/home/alonsadan1/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

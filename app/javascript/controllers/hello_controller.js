@@ -1,7 +1,19 @@
-import { Controller } from "@hotwired/stimulus"
+// import { Controller } from "@hotwired/stimulus"
+
+// export default class extends Controller {
+//   connect() {
+//     this.element.textContent = "Hello World!"
+//   }
+// }
+import { Controller } from "stimulus"
 
 export default class extends Controller {
-  connect() {
-    this.element.textContent = "Hello World!"
+  static targets = [ "list" ]
+
+  addHelloWorld() {
+    const listEl = this.listTarget
+    var itemEl = document.createElement("li");
+    itemEl.innerHTML = "Hello World from a Stimulus controller!";
+    listEl.appendChild(itemEl);
   }
 }
