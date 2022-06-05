@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "stimulus_reflex", "~> 3.4"
+gem "cable_ready", "~> 4.5"
+
+gem "redis", "~> 4.6"

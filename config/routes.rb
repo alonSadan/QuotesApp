@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root to: 'welcome#index'
+  post '/create-quote', to: 'welcome#create_quote', as: 'create_quote'
 end
